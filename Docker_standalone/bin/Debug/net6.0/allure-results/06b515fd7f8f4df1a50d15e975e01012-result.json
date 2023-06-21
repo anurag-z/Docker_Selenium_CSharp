@@ -1,0 +1,72 @@
+{
+  "uuid": "a642a7c6f8cd4f73b4d06eb9ad6b6ecf",
+  "historyId": "Searching new on Google",
+  "fullName": "Searching new on Google",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-GQPKBG72"
+    },
+    {
+      "name": "feature",
+      "value": "P_DocC"
+    },
+    {
+      "name": "tag",
+      "value": "P_D"
+    },
+    {
+      "name": "tag",
+      "value": "P_DocC"
+    }
+  ],
+  "links": [],
+  "name": "Searching new on Google",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I Navigate to URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673196929891,
+      "stop": 1673196941295
+    },
+    {
+      "name": "And  I Search for youtube",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673196941298,
+      "stop": 1673196978487
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673196929864,
+  "stop": 1673196978491
+}

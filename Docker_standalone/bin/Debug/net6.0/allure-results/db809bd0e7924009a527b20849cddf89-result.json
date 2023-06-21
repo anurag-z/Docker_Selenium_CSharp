@@ -1,0 +1,74 @@
+{
+  "uuid": "9a9255cd318a41c39abca98ff25915b1",
+  "historyId": "Searching new on Google",
+  "fullName": "Searching new on Google",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-GQPKBG72"
+    },
+    {
+      "name": "feature",
+      "value": "P_DocC"
+    },
+    {
+      "name": "tag",
+      "value": "P_D"
+    },
+    {
+      "name": "tag",
+      "value": "P_DocC"
+    }
+  ],
+  "links": [],
+  "name": "Searching new on Google",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@aria-label=\"Search\"]\"}\n  (Session info: chrome=112.0.5615.87)",
+    "trace": "OpenQA.Selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@aria-label=\"Search\"]\"}\n  (Session info: chrome=112.0.5615.87)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at Docker_Dummy.StepDefinitions.CalculatorStepDefinitions.GivenISearchForYoutube() in C:\\Users\\Anurag\\source\\repos\\Docker_standalone\\Docker_standalone\\StepDefinitions\\CalculatorStepDefinitions.cs:line 40\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I Navigate to URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681631350689,
+      "stop": 1681631362829
+    },
+    {
+      "name": "And  I Search for youtube",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681631362830,
+      "stop": 1681631362883
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681631350660,
+  "stop": 1681631362902
+}

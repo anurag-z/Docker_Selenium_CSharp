@@ -1,0 +1,6 @@
+  date [.NET Long Running Task] ERROR Searching new on Google101031 - Unable to cast object of type 'log4net.Appender.MemoryAppender' to type 'log4net.Appender.FileAppender'.
+  date [.NET Long Running Task] INFO  Searching new on Google101031 - Logging has started...
+  date [.NET Long Running Task] INFO  Searching new on Google101031 - Time stamp101031
+  date [.NET Long Running Task] INFO  Searching new on Google101031 - Navigate tohttps://www.google.com/
+  date [.NET Long Running Task] INFO  Searching new on Google101031 - Expected value :Anurag
+  date [.NET Long Running Task] INFO  Searching new on Google101031 - Actual value :Anurag - Google Search

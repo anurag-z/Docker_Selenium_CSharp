@@ -1,0 +1,54 @@
+{
+  "uuid": "2618c2a621a746bdaec6fbf76772b04c",
+  "children": [
+    "7c34cd5ea5764e98b01fce2ee545e8ff"
+  ],
+  "befores": [
+    {
+      "name": "BF [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673197852152,
+      "stop": 1673197856359
+    }
+  ],
+  "afters": [
+    {
+      "name": "AF [10000]",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Searching new on Google104051",
+          "source": "39810137598a45ec812b628dc30da657-attachment.log",
+          "type": "text/plain"
+        },
+        {
+          "name": "Searching new on Google2023-01-08.png",
+          "source": "7394cd523e2d4d6996e6863a8ee834e7-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1673197909299,
+      "stop": 1673198096558
+    }
+  ],
+  "links": [],
+  "start": 1673197852146,
+  "stop": 1673198096602
+}

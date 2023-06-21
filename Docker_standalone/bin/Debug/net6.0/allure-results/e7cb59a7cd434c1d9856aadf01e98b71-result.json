@@ -1,0 +1,74 @@
+{
+  "uuid": "7f465391db5e4f30ac3db734f4efd089",
+  "historyId": "Searching new on Google",
+  "fullName": "Searching new on Google",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-GQPKBG72"
+    },
+    {
+      "name": "feature",
+      "value": "P_DocC"
+    },
+    {
+      "name": "tag",
+      "value": "P_D"
+    },
+    {
+      "name": "tag",
+      "value": "P_DocC"
+    }
+  ],
+  "links": [],
+  "name": "Searching new on Google",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.IsTrue failed. ",
+    "trace": "Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. \r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)\r\n   at Docker_Dummy.StepDefinitions.CalculatorStepDefinitions.GivenISearchForYoutube() in C:\\Users\\Anurag\\source\\repos\\Docker_standalone\\Docker_standalone\\StepDefinitions\\CalculatorStepDefinitions.cs:line 45\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I Navigate to URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681631701691,
+      "stop": 1681631715573
+    },
+    {
+      "name": "And  I Search for youtube",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681631715576,
+      "stop": 1681631753050
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681631701662,
+  "stop": 1681631753072
+}

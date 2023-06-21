@@ -1,0 +1,74 @@
+{
+  "uuid": "33065f0a66b64dafb6765db07b251b6d",
+  "historyId": "Searching new on Google",
+  "fullName": "Searching new on Google",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-GQPKBG72"
+    },
+    {
+      "name": "feature",
+      "value": "P_DocC"
+    },
+    {
+      "name": "tag",
+      "value": "P_D"
+    },
+    {
+      "name": "tag",
+      "value": "P_DocC"
+    }
+  ],
+  "links": [],
+  "name": "Searching new on Google",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Could not find a part of the path 'C:\\Users\\Anurag\\source\\repos\\Docker_standalone\\Docker_standalone\\bin\\Screenshot\\Searching new on Google2023-01-08.png'.",
+    "trace": "System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\\Users\\Anurag\\source\\repos\\Docker_standalone\\Docker_standalone\\bin\\Screenshot\\Searching new on Google2023-01-08.png'.\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.CreateFile(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options)\r\n   at Microsoft.Win32.SafeHandles.SafeFileHandle.Open(String fullPath, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.OSFileStreamStrategy..ctor(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategyCore(String path, FileMode mode, FileAccess access, FileShare share, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.Strategies.FileStreamHelpers.ChooseStrategy(FileStream fileStream, String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, Int64 preallocationSize)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at Hooks.AF() in C:\\Users\\Anurag\\source\\repos\\Docker_standalone\\Docker_standalone\\Hooks.cs:line 63\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I Navigate to URL",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673197513368,
+      "stop": 1673197525230
+    },
+    {
+      "name": "And  I Search for youtube",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1673197525232,
+      "stop": 1673197569407
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1673197513274,
+  "stop": 1673197570799
+}

@@ -1,0 +1,74 @@
+{
+  "uuid": "426aa6e8f3124681ac1318b658bb074e",
+  "historyId": "Searching new on Google",
+  "fullName": "Searching new on Google",
+  "labels": [
+    {
+      "name": "thread",
+      "value": ".NET Long Running Task"
+    },
+    {
+      "name": "host",
+      "value": "da726dac806c"
+    },
+    {
+      "name": "feature",
+      "value": "P_DocC"
+    },
+    {
+      "name": "tag",
+      "value": "P_D"
+    },
+    {
+      "name": "tag",
+      "value": "P_DocC"
+    }
+  ],
+  "links": [],
+  "name": "Searching new on Google",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Exception has been thrown by the target of an invocation. -> unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)",
+    "trace": "System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation.\n ---> OpenQA.Selenium.WebDriverException: unknown error: Chrome failed to start: exited abnormally.\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\n   at OpenQA.Selenium.WebDriver.StartSession(ICapabilities desiredCapabilities)\n   at OpenQA.Selenium.WebDriver..ctor(ICommandExecutor executor, ICapabilities capabilities)\n   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeOptions options)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor()\n   at Driver.intialise() in /src/Support/Driver.cs:line 45\n   at Driver..ctor() in /src/Support/Driver.cs:line 21\n   at Hooks..ctor(ScenarioContext scenariocontext) in /src/Hooks.cs:line 28\n   --- End of inner exception stack trace ---\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Span`1& arguments, Signature sig, Boolean constructor, Boolean wrapExceptions)\n   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\n   at System.Reflection.ConstructorInfo.Invoke(Object[] parameters)\n   at BoDi.ObjectContainer.CreateObject(Type type, ResolutionList resolutionPath, RegistrationKey keyToResolve)\n   at BoDi.ObjectContainer.TypeRegistration.<>c__DisplayClass3_0.<ResolvePerContext>b__1()\n   at BoDi.ObjectContainer.RegistrationWithStrategy.ExecuteWithLock(Object lockObject, Func`1 getter, Func`1 factory, ResolutionList resolutionPath)\n   at BoDi.ObjectContainer.TypeRegistration.ResolvePerContext(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\n   at BoDi.ObjectContainer.RegistrationWithStrategy.Resolve(ObjectContainer container, RegistrationKey keyToResolve, ResolutionList resolutionPath)\n   at BoDi.ObjectContainer.ResolveObject(RegistrationKey keyToResolve, ResolutionList resolutionPath)\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, ResolutionList resolutionPath, String name)\n   at BoDi.ObjectContainer.Resolve(Type typeToResolve, String name)\n   at TechTalk.SpecFlow.Infrastructure.TestObjectResolver.ResolveBindingInstance(Type bindingType, IObjectContainer container)\n   at lambda_method123(Closure , IContextManager )\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I Navigate to URL",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681639406847,
+      "stop": 1681639406847
+    },
+    {
+      "name": "And  I Search for youtube",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1681639406847,
+      "stop": 1681639406847
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1681639406846,
+  "stop": 1681639406847
+}
